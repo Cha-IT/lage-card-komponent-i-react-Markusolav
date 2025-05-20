@@ -1,32 +1,31 @@
 [
   {
     "id": 1,
-    "navn": "Spaghetti Bolognese",
-    "beskrivelse": "En klassisk italiensk pastarett med kjøttsaus.",
+    "navn": "Tomatsuppe",
+    "beskrivelse": "En enkel og god hjemmelaget tomatsuppe.",
     "ingredienser": [
-      "400g spaghetti",
-      "400g kjøttdeig",
       "1 løk",
       "2 fedd hvitløk",
-      "1 boks hakkede tomater",
       "2 ss tomatpuré",
-      "1 ts oregano",
+      "1 boks hakkede tomater",
+      "5 dl grønnsakskraft",
+      "1 ts sukker",
       "Salt og pepper",
-      "Olivenolje"
+      "Olje til steking"
     ],
     "fremgangsmåte": [
-      "Kok spaghetti etter anvisning på pakken.",
-      "Stek løk og hvitløk i olivenolje til myk.",
-      "Tilsett kjøttdeig og brun den.",
-      "Ha i tomatpuré, hakkede tomater og oregano.",
-      "La sausen småkoke i 15 minutter.",
-      "Smak til med salt og pepper.",
-      "Server kjøttsausen over spaghettien."
-    ]
+      "Stek løk og hvitløk i olje.",
+      "Tilsett tomatpuré og la surre et minutt.",
+      "Ha i hakkede tomater og grønnsakskraft.",
+      "La suppen småkoke i 15 minutter.",
+      "Kjør suppen glatt med stavmikser.",
+      "Smak til med sukker, salt og pepper."
+    ],
+    "bilde": "Tomatsuppe.jpg"
   },
   {
     "id": 2,
-    "navn": "Kylling Tikka Masala",
+    "navn": "Tikka Masala Kylling",
     "beskrivelse": "En indisk-inspirert rett med kremet tomatsaus og kylling.",
     "ingredienser": [
       "500g kyllingfilet",
@@ -46,7 +45,8 @@
       "Ha i hakkede tomater og la småkoke i 10 minutter.",
       "Rør inn fløte og smak til med salt og pepper.",
       "Server med ris."
-    ]
+    ],
+    "bilde": "assets/Tikkamasala kylling.jpg"
   },
   {
     "id": 3,
@@ -69,13 +69,15 @@
       "Stivpisk eggehviter og vend inn.",
       "Ha blandingen i en ildfast form og strø over brødrasp.",
       "Stek på 200°C i ca. 30 minutter."
-    ]
+    ],
+    "bilde": "assets/Fiksegrateng.jpg"
   },
   {
     "id": 4,
-    "navn": "Vegetarisk Chili",
-    "beskrivelse": "En smakfull chili uten kjøtt, med bønner og grønnsaker.",
+    "navn": "Vegetar Chilli Nudler",
+    "beskrivelse": "En smakfull vegetarrett med nudler og chili.",
     "ingredienser": [
+      "1 pakke nudler",
       "1 løk",
       "2 fedd hvitløk",
       "1 rød paprika",
@@ -92,27 +94,36 @@
       "Tilsett krydder og rør godt.",
       "Ha i bønner og hakkede tomater.",
       "La småkoke i 20 minutter.",
-      "Smak til med salt og pepper.",
-      "Server med ris eller brød."
-    ]
+      "Kok nudler og bland med sausen.",
+      "Smak til med salt og pepper."
+    ],
+    "bilde": "assets/Vegetar chilli nudler.jpg"
   },
   {
     "id": 5,
-    "navn": "Pannekaker",
-    "beskrivelse": "Tynne, klassiske pannekaker som kan serveres med syltetøy eller sukker.",
+    "navn": "Spaghetti Bolognese",
+    "beskrivelse": "En klassisk italiensk pastarett med kjøttsaus.",
     "ingredienser": [
-      "3 egg",
-      "5 dl melk",
-      "2,5 dl hvetemel",
-      "0,5 ts salt",
-      "2 ss smør"
+      "400g spaghetti",
+      "400g kjøttdeig",
+      "1 løk",
+      "2 fedd hvitløk",
+      "1 boks hakkede tomater",
+      "2 ss tomatpuré",
+      "1 ts oregano",
+      "Salt og pepper",
+      "Olivenolje"
     ],
     "fremgangsmåte": [
-      "Visp sammen egg, melk, mel og salt til en glatt røre.",
-      "La røren svelle i 15 minutter.",
-      "Stek tynne pannekaker i smør på middels varme.",
-      "Server med ønsket tilbehør."
-    ]
+      "Kok spaghetti etter anvisning på pakken.",
+      "Stek løk og hvitløk i olivenolje til myk.",
+      "Tilsett kjøttdeig og brun den.",
+      "Ha i tomatpuré, hakkede tomater og oregano.",
+      "La sausen småkoke i 15 minutter.",
+      "Smak til med salt og pepper.",
+      "Server kjøttsausen over spaghettien."
+    ],
+    "bilde": "assets/Spagetti bolognese.jpg"
   },
   {
     "id": 6,
@@ -137,30 +148,27 @@
       "Lag ostesaus av smør, mel, melk og ost.",
       "Legg lagvis kjøttsaus, lasagneplater og ostesaus i en form.",
       "Stek på 200°C i 30-40 minutter."
-    ]
+    ],
+    "bilde": "assets/Lasagne.jpg"
   },
   {
     "id": 7,
-    "navn": "Tomatsuppe",
-    "beskrivelse": "En enkel og god hjemmelaget tomatsuppe.",
+    "navn": "Pannekaker",
+    "beskrivelse": "Tynne, klassiske pannekaker som kan serveres med syltetøy eller sukker.",
     "ingredienser": [
-      "1 løk",
-      "2 fedd hvitløk",
-      "2 ss tomatpuré",
-      "1 boks hakkede tomater",
-      "5 dl grønnsakskraft",
-      "1 ts sukker",
-      "Salt og pepper",
-      "Olje til steking"
+      "3 egg",
+      "5 dl melk",
+      "2,5 dl hvetemel",
+      "0,5 ts salt",
+      "2 ss smør"
     ],
     "fremgangsmåte": [
-      "Stek løk og hvitløk i olje.",
-      "Tilsett tomatpuré og la surre et minutt.",
-      "Ha i hakkede tomater og grønnsakskraft.",
-      "La suppen småkoke i 15 minutter.",
-      "Kjør suppen glatt med stavmikser.",
-      "Smak til med sukker, salt og pepper."
-    ]
+      "Visp sammen egg, melk, mel og salt til en glatt røre.",
+      "La røren svelle i 15 minutter.",
+      "Stek tynne pannekaker i smør på middels varme.",
+      "Server med ønsket tilbehør."
+    ],
+    "bilde": "assets/Pannekaker.jpg"
   },
   {
     "id": 8,
@@ -182,11 +190,12 @@
       "Varm tacoskjell etter anvisning på pakken.",
       "Fyll skjellene med kjøtt, salat, tomat, løk, mais og ost.",
       "Server med rømme."
-    ]
+    ],
+    "bilde": "assets/Taco.jpg"
   },
   {
     "id": 9,
-    "navn": "Frokostsmoothie",
+    "navn": "Smoothie",
     "beskrivelse": "En frisk og sunn smoothie til frokost.",
     "ingredienser": [
       "1 banan",
@@ -198,7 +207,8 @@
       "Ha alle ingrediensene i en blender.",
       "Kjør til en jevn smoothie.",
       "Server straks."
-    ]
+    ],
+    "bilde": "assets/Smoothie.jpg"
   },
   {
     "id": 10,
@@ -219,6 +229,7 @@
       "Strø over skinke og ost.",
       "Stek til omeletten er fast.",
       "Brett omeletten og server."
-    ]
+    ],
+    "bilde": "assets/Omelett.jpg"
   }
 ]

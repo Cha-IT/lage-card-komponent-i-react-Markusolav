@@ -1,27 +1,28 @@
 import { Link } from 'react-router-dom';
 import oppskrifter from './assets/oppskrifter.json';
-import Header from './header.jsx'
-import Nav from './nav.jsx'
+import Header from './header.jsx';
+import Nav from './nav.jsx';
+import Card from './card.jsx';
 
-function Oppskrifter(){
-
-    return(
+function Oppskrifter() {
+    return (
         <>
-        <Header />
-        <Nav />
+            <Header />
+            <Nav />
             <h1>Oppskrifter</h1>
-            <ul>
-                {oppskrifter.map((oppskrift, index) => (
-                    <li key={index}>
-                        <h2>{oppskrift.navn}</h2>
-                        <p>{oppskrift.beskrivelse}</p>
-                        <Link to={`/oppskrift/${oppskrift.id}`}>Se oppskrift</Link>
-                    </li>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
+                {oppskrifter.map((oppskrift) => (
+                    <Card
+                        key={oppskrift.id}
+                        title={oppskrift.navn}
+                        description={oppskrift.beskrivelse}
+                        image={oppskrift.bilde}
+                        link={`/oppskrift/${oppskrift.id}`}
+                    />
                 ))}
-            </ul>
-        
+            </div>
         </>
-    )
+    );
 }
 
 export default Oppskrifter;
